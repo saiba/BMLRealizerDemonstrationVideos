@@ -1,0 +1,33 @@
+<bml id="bml1">
+    <speech id="speech" type="text/plain">
+            <tm id="T0"/>What's
+            <tm id="T1"/>
+            <tm id="T2"/>the
+            <tm id="T3"/>
+            <tm id="T4"/>point<tm id="T5"/>            
+            <tm id="T6"/>I
+            <tm id="T7"/>
+            <tm id="T8"/>don't
+            <tm id="T9"/>
+            <tm id="T10"/>even
+            <tm id="T11"/>
+            <tm id="T12"/>know
+            <tm id="T13"/>
+            <tm id="T14"/>what's
+            <tm id="T15"/>
+            <tm id="T16"/>going
+            <tm id="T17"/>
+            <tm id="T18"/>on
+            <tm id="T19"/>
+            <tm id="T20"/>anymore
+            <tm id="T21"/>
+    </speech>
+  <gaze target="foo" sbm:joint-range="EYES" direction="RIGHT" angle="10" start="speech:T0"/>
+  <gaze target="foo" sbm:joint-range="EYES" start="speech:T8"/>
+  <head type="SHAKE" start="speech:T8" amount=".2"/>
+  <animation name="ChrCabrillo_IdleUpright01_HandBeatLeft01" start="speech:T8"/>
+  <face type="FACS" au="6" side="BOTH" start="speech:T10"/>
+  <animation name="ChrCabrillo_IdleUpright01_Shrug01" start="speech:T18"/>
+  <gaze target="foo" sbm:joint-range="EYES" start="speech:T16"/>
+</bml>
+

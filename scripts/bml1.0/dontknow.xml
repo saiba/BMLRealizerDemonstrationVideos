@@ -1,0 +1,34 @@
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0" xmlns:ext="http://www.bml-initiative.org/bml/coreextensions-1.0" id="bml1">
+    <speech id="speech">
+    <text>
+            <sync id="T0"/>What's
+            <sync id="T1"/>
+            <sync id="T2"/>the
+            <sync id="T3"/>
+            <sync id="T4"/>point
+            <sync id="T5"/>            <sync id="T6"/>I
+            <sync id="T7"/>
+            <sync id="T8"/>don't
+            <sync id="T9"/>
+            <sync id="T10"/>even
+            <sync id="T11"/>
+            <sync id="T12"/>know
+            <sync id="T13"/>
+            <sync id="T14"/>what's
+            <sync id="T15"/>
+            <sync id="T16"/>going
+            <sync id="T17"/>
+            <sync id="T18"/>on
+            <sync id="T19"/>
+            <sync id="T20"/>anymore
+            <sync id="T21"/>
+    </text>
+    </speech>
+    <gaze id="g1" target="camera" influence="EYES" offsetdirection="RIGHT" offsetangle="10" start="speech:T0"/>
+    <gaze id="g2" target="camera" influence="EYES" start="speech:T8"/>
+    <head id="h1" lexeme="SHAKE" start="speech:T8" amount=".2"/>
+    <gesture id="gest1" lexeme="BEAT" hand="LEFT" start="speech:T8"/>
+    <ext:faceFaces id="f1" type="FACS" au="6" side="BOTH" start="speech:T10"/>
+    <gesture id="gest2" lexeme="greta_ask" start="speech:T18"/>
+    <gaze id="g3" target="camera" influence="EYES" start="speech:T16"/>                
+  </bml>
